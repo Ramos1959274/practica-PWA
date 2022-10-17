@@ -1,0 +1,29 @@
+.navbar{
+    background-color: saddlebrown;
+}
+.navbar a{
+    color: red;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.dropdown-item{
+    background: blueviolet;
+}
+h2{
+color: aqua;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 70%;
+}
+h3{
+color: blue;
+}
+h4{
+color: brown;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 70%;
+}
+.galeria img{
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Practica PWA",
+    "short_name": "PracticaPWA",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#0000",
+    "description": "pagina de ejemplo creada en clase",
+    "icons": [{
+      "src": "5.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }]
+}
