@@ -54,6 +54,18 @@
       <input type="text" id="nombre"><br>
       <label class="letra">APELLIDO</label><br>
       <input type="text" id="ap"><br><br>
+      <label for="">Edad:</label><br>
+      <input type="number" name="" id=""><br>
+      <label for="">Estado:</label><br>
+      <select name="" id="">
+        <option value="">Sinaloa</option>
+        <option value="">Nayarit</option>
+        <option value="">Durango</option>
+        <option value="">Sonora</option>
+      </select>
+      <label for="">Foto:</label><br>
+      <input type="file" name="" id="foto" capture="camera" accept="image/*">
+      <img width="300px" height="200px" id="captura"><br>
       <button onclick="mostrar()">Enviar</button>
     </form>
     <script>
@@ -63,6 +75,11 @@
         alert("hola " + nombre + " " + ap)
   
       }
+      var cuadro=document.getElementById("captura")
+      var foto=document.getElementById("foto")
+      foto.addEventListener("change", function(e){
+        cuadro.src=URL.createObjectURL(e.target.files[0])
+      })
     </script>
 </body>
 </html>
